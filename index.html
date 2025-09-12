@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>American Eagle Firearms LLC</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <!-- Header/Navigation Bar -->
+    <header class="header">
+        <div class="container">
+            <a href="#home" class="logo">
+                <div class="icon-wrapper">
+                    <svg class="main-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+                    <svg class="flag-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path><line x1="4" x2="4" y1="22" y2="15"></line></svg>
+                </div>
+                <div>
+                    <h1 class="title-text">American Eagle</h1>
+                    <p class="subtitle-text">FIREARMS LLC</p>
+                </div>
+            </a>
+
+            <nav class="nav">
+                <a href="#home" class="nav-item active">Home</a>
+                <a href="#about" class="nav-item">About Dennis</a>
+                <a href="#services" class="nav-item">Services</a>
+                <a href="#gallery" class="nav-item">Gallery</a>
+                <a href="#contact" class="nav-item">Contact</a>
+                <a href="#compliance" class="nav-item">Compliance</a>
+            </nav>
+
+            <div class="phone-number">
+                <svg class="phone-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.63A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 2.18 15.79 15.79 0 0 0 .93 5.31 2 2 0 0 1-.76 2.06l-2.17 2.17a15.19 15.19 0 0 0 6 6l2.17-2.17a2 2 0 0 1 2.06-.76 15.79 15.79 0 0 0 5.31.93A2 2 0 0 1 22 16.92z"></path></svg>
+                <span class="phone-text">(555) 123-4567</span>
+            </div>
+
+            <button class="mobile-menu-button" id="mobile-menu-button">
+                <svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <button class="mobile-menu-close" id="mobile-menu-close">
+            <svg viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
+        <ul class="nav-list">
+            <li class="nav-list-item"><a href="#home" class="nav-list-link">Home</a></li>
+            <li class="nav-list-item"><a href="#about" class="nav-list-link">About Dennis</a></li>
+            <li class="nav-list-item"><a href="#services" class="nav-list-link">Services</a></li>
+            <li class="nav-list-item"><a href="#gallery" class="nav-list-link">Gallery</a></li>
+            <li class="nav-list-item"><a href="#contact" class="nav-list-link">Contact</a></li>
+            <li class="nav-list-item"><a href="#compliance" class="nav-list-link">Compliance</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="star-container"></div>
+        <div class="hero-content container">
+            <div class="eagle-logo">
+                <div class="text-6xl">🦅</div>
+            </div>
+
+            <h1 class="headline">
+                <span class="red-text">American Eagle</span>
+                <span class="blue-text">Firearms LLC</span>
+            </h1>
+            
+            <p class="tagline">
+                "Old-School American Craftsmanship. Built to Last."
+            </p>
+            
+            <div class="credentials">
+                <div class="credential-item">
+                    <svg class="icon text-blue-400" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    <span class="text">FFL Licensed</span>
+                </div>
+                <div class="credential-item">
+                    <svg class="icon text-red-400" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"></circle><path d="M15.477 12.89a1.5 1.5 0 0 0-2.146-.14L12 13.931l-1.331-1.181a1.5 1.5 0 0 0-2.146.141A7 7 0 1 0 15.477 12.89z"></path></svg>
+                    <span class="text">Master Gunsmith</span>
+                </div>
+                <div class="credential-item">
+                    <svg class="icon text-amber-400" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                    <span class="text">Nationwide Trusted</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Boxes -->
+    <section class="features-section">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-box">
+                    <h3 class="red">Custom Builds</h3>
+                    <p>Precision-crafted firearms built from scratch with state-of-the-art equipment</p>
+                </div>
+                <div class="feature-box">
+                    <h3 class="blue">Nationwide Repairs</h3>
+                    <p>Companies across America trust us with their firearms restoration needs</p>
+                </div>
+                <div class="feature-box">
+                    <h3 class="amber">FFL Transfers</h3>
+                    <p>Legal transfers with personal background checks and full compliance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="services-header">
+                <div class="inline-flex">
+                    <svg class="h-8 w-8 text-red-600" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                    <h2>Our Services</h2>
+                    <svg class="h-8 w-8 text-blue-600" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                </div>
+                <p>
+                    Precision craftsmanship meets unwavering integrity. Every service backed by decades of experience 
+                    and absolute commitment to American values.
+                </p>
+            </div>
+
+            <!-- Services Grid -->
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Custom Firearm Builds</h3>
+                    <p>Every firearm is precision-crafted from the ground up using state-of-the-art equipment and decades of expertise. Each build is a testament to American craftsmanship.</p>
+                    <ul>
+                        <li>Precision machining</li>
+                        <li>Custom specifications</li>
+                        <li>Quality materials</li>
+                        <li>Heritage design</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <h3>Nationwide Repairs & Restoration</h3>
+                    <p>Companies across America ship their firearms to us for restoration. Every gun returns in flawless condition, backed by our reputation for perfection.</p>
+                    <ul>
+                        <li>Expert diagnosis</li>
+                        <li>Complete restoration</li>
+                        <li>Nationwide shipping</li>
+                        <li>Guaranteed results</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <h3>FFL Transfers & Background Checks</h3>
+                    <p>Full Federal Firearms License compliance with personal background checks conducted by Dennis himself. Complete legal compliance guaranteed.</p>
+                    <ul>
+                        <li>FFL licensed</li>
+                        <li>Background checks</li>
+                        <li>Legal compliance</li>
+                        <li>Personal service</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Trust Indicators -->
+            <div class="trust-section">
+                <h3>Why Choose American Eagle Firearms?</h3>
+                <div class="trust-grid">
+                    <div class="trust-item">
+                        <h4>Full Legal Compliance</h4>
+                        <p>FFL licensed with complete adherence to all federal and state regulations</p>
+                    </div>
+                    <div class="trust-item">
+                        <h4>Master Craftsmanship</h4>
+                        <p>Decades of experience with precision equipment and old-school attention to detail</p>
+                    </div>
+                    <div class="trust-item">
+                        <h4>Nationwide Trust</h4>
+                        <p>Companies across America rely on our reputation for excellence and integrity</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div>
+                    <h2>About Dennis Thompson</h2>
+                    <p>Dennis Thompson is a master gunsmith whose reputation for precision and integrity has earned trust from firearm enthusiasts and companies nationwide. With full Federal Firearms License (FFL) certification, Dennis personally conducts every background check and ensures complete legal compliance.</p>
+                    <p>A proud American who embodies the spirit of traditional craftsmanship, Dennis believes in the values that built this great nation: hard work, honesty, and respect for our constitutional rights. Every firearm that leaves his shop is a testament to old-school American quality.</p>
+                    <p>When companies across the United States need firearms restored, they ship them to Dennis knowing they'll return in flawless condition. His state-of-the-art precision equipment combined with decades of experience ensures every project meets the highest standards.</p>
+
+                    <!-- Values -->
+                    <div class="values-grid">
+                        <div class="value-item">
+                            <h3>Precision Craftsmanship</h3>
+                            <p>Every detail matters, every measurement perfect</p>
+                        </div>
+                        <div class="value-item">
+                            <h3>American Values</h3>
+                            <p>Patriotism, freedom, and constitutional rights</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portrait-credentials">
+                    <div class="portrait-placeholder">
+                        <div class="emoji">👨‍🔧</div>
+                        <h4>Dennis Thompson</h4>
+                        <p>Master Gunsmith</p>
+                    </div>
+
+                    <div class="credentials-card">
+                        <h3>Credentials & Experience</h3>
+                        <ul>
+                            <li>Federal Firearms License (FFL) Certified</li>
+                            <li>Master Gunsmith Certification</li>
+                            <li>Decades of Professional Experience</li>
+                            <li>Nationwide Repair Network</li>
+                            <li>State-of-the-Art Equipment</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quote Section -->
+            <div class="quote-section">
+                <blockquote>
+                    "Every firearm tells a story of American heritage. My job is to honor that legacy with the precision and respect it deserves."
+                </blockquote>
+                <p>— Dennis Thompson, Master Gunsmith</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="company-info">
+                    <h3>American Eagle Firearms LLC</h3>
+                    <p>Master Gunsmith Services</p>
+                    <p>Proudly serving American firearm enthusiasts with precision craftsmanship, unwavering integrity, and full legal compliance.</p>
+                </div>
+
+                <div class="contact-info">
+                    <h4>Contact Dennis</h4>
+                    <p>(555) 123-4567</p>
+                    <p>dennis@americaneaglefirearms.com</p>
+                    <p>123 Heritage Lane, Hometown, USA 12345</p>
+                </div>
+
+                <div class="services-list">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li>Custom Firearm Builds</li>
+                        <li>Nationwide Repairs</li>
+                        <li>Restoration Services</li>
+                        <li>FFL Transfers</li>
+                        <li>Background Checks</li>
+                        <li>Expert Consultation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bottom-section">
+                <p>&copy; 2025 American Eagle Firearms LLC. All rights reserved.</p>
+                <p>Licensed Federal Firearms Dealer | FFL Compliance Guaranteed</p>
+                <p>Proudly Made in America</p>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/script.js" defer></script>
+
+</body>
+</html>
